@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<style>
+  @page { size: A4; margin: 18mm 16mm; }
+  body { font-family: "Microsoft YaHei", sans-serif; color: #33302b; line-height: 1.75; font-size: 11.5pt; }
+  h1 { font-size: 22pt; margin: 0 0 4px; }
+  h1 .emoji { font-size: 20pt; }
+  .sub { color: #8a847a; font-size: 11pt; margin-bottom: 22px; }
+  h2 { font-size: 15pt; border-left: 5px solid #e8843c; padding-left: 10px; margin: 26px 0 10px; }
+  .stepnum { display: inline-block; background: #e8843c; color: #fff; border-radius: 50%; width: 22px; height: 22px; text-align: center; line-height: 22px; font-size: 12pt; margin-right: 8px; }
+  .box { background: #faf6ef; border: 1px solid #eee4d4; border-radius: 8px; padding: 12px 16px; margin: 10px 0; }
+  .warn { background: #fdf0e4; border: 1px solid #f2d9bd; }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0; font-size: 10.5pt; }
+  td, th { border: 1px solid #e2d9c8; padding: 7px 10px; text-align: left; }
+  th { background: #f6f1e8; }
+  ul { padding-left: 22px; }
+  .small { color: #8a847a; font-size: 9.5pt; }
+</style>
+</head>
+<body>
+<h1><span class="emoji">🍪</span> 影子剪纸机 · 图文说明书</h1>
+<div class="sub">想要什么影子，告诉你剪一张什么样的纸 · 单灯版 v0.1 · 本机生成，无需联网</div>
+
+<h2>它是什么</h2>
+<p>你有没有想把某个图案用影子投到墙上？难点在于：<b>灯会把纸放大</b>，所以纸不能照着影子的大小剪。这款小工具替你算好这一切：你选（或画出）想要<b>出现在墙上</b>的影子，告诉它灯和纸怎么摆，它就给你一张<b>按真实尺寸、可以打印</b>的剪纸图。</p>
+<div class="box">一句话原理：灯把纸的影子投影到墙上时会放大。影子比纸大多少倍，只取决于"灯到墙的距离"是"纸到墙的距离"的多少倍。软件按这个比例反向算出纸的形状。</div>
+
+<h2>开始前准备</h2>
+<table>
+<tr><th>物品</th><th>说明</th></tr>
+<tr><td>A4 打印纸</td><td>影子不大时 1 页就够；大影子会自动分页，需要胶带拼接</td></tr>
+<tr><td>剪刀 / 美工刀</td><td>剪掉图上<b>黑色</b>的部分（镂空）</td></tr>
+<tr><td>一个灯</td><td>手机手电筒、台灯（去掉灯罩）都可以；灯泡越"小"影子边缘越清晰</td></tr>
+<tr><td>一把尺子（可选）</td><td>量灯、纸、墙之间的距离，照软件给的数字摆</td></tr>
+</table>
+
+<h2>三步使用</h2>
+<h3><span class="stepnum">1</span>选影子</h3>
+<p>打开软件，第一步有 6 个现成形状（星星、爱心、小猫……），点一个就行。想用<b>自己的图案</b>：点「导入图片变剪影」，选一张轮廓清楚的照片，拖动"明暗分界"滑块直到黑色剪影干净利落。</p>
+<h3><span class="stepnum">2</span>摆灯和纸</h3>
+<p>三个滑块决定一切：<b>影子在墙上的宽度</b>（你希望影子多大）、<b>灯到墙的距离</b>、<b>纸到墙的距离</b>。软件实时告诉你"你要剪的纸是多少厘米"，并画出侧视图。提示：纸离灯越近，纸越小、越好剪。</p>
+<h3><span class="stepnum">3</span>打印、裁剪、开灯</h3>
+<p>点「生成打印 PDF」。<b>图是按真实尺寸画的</b>：影子不超过一张 A4 时只有一页；大了会自动分页，每页边上有对齐记号——打印后按记号对齐、胶带粘好再剪。剪掉所有黑色部分，然后：</p>
+<ul>
+  <li>把纸立在距墙 <b>纸到墙距离</b> 的位置（两张椅子夹住或贴在窗玻璃上都行）；</li>
+  <li>灯放在纸的正后方 <b>灯到纸距离</b> 处，对准纸中心；</li>
+  <li>关掉房间其他灯——墙上就是你的影子。</li>
+</ul>
+
+<h2>常见问题</h2>
+<table>
+<tr><th>现象</th><th>原因与办法</th></tr>
+<tr><td>影子边缘发虚</td><td>灯泡太大或太远不聚焦：换手机手电筒这类"点"光源，或把灯再离纸近一点</td></tr>
+<tr><td>影子比预想的大/小</td><td>实际摆的距离和软件里填的不一致。影子大小 = 纸 × (灯到墙 ÷ 纸到墙)，量一量再调</td></tr>
+<tr><td>打印出来尺寸不对</td><td>打印对话框里选择"实际大小 / 100%"，不要选"适应页面"</td></tr>
+<tr><td>照片剪影太碎</td><td>换轮廓简单、背景干净的照片，或把明暗分界滑块往干净的方向拖</td></tr>
+</table>
+
+<h2>安全提示</h2>
+<div class="box warn">使用剪刀和美工刀请注意安全，儿童需大人陪同。灯泡会发热：持续投影时优先用 LED 手电筒，避免让纸长时间贴近白炽灯泡。</div>
+
+<h2>它不是什么</h2>
+<ul>
+<li>它不做手影表演教学，也不预测现实光线的柔和阴影——它算的是点光源的<b>硬边缘影子</b>（这正是剪纸影子的效果）。</li>
+<li>它不联网：所有计算都在你的电脑上完成。</li>
+<li>影子边缘的轻微虚化是光的物理性质（半影），不是打印错了。</li>
+</ul>
+
+<h2>原理（给好奇的人）</h2>
+<p>墙在 z=0，纸在 z=d，灯在 z=h。墙上影子点 W 经灯投影到纸面得到纸上的点 P = 灯 + (d/h)×(W−灯)。也就是说，纸的形状是影子形状以灯为中心的<b>位似缩小</b>，比例 s=d/h。影子与纸的面积比恒为 (h/d)²，与影子内容无关。</p>
+<p class="small">影子剪纸机 v0.1 · 本说明书由软件内置生成 · 所有计算在本地完成</p>
+</body>
+</html>

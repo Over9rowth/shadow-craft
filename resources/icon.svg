@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <rect width="256" height="256" rx="56" fill="#10151c"/>
+  <!-- 墙上的影子：与纸同形（点光源 + 平行平面 => 相似缩放），更大更暗、偏右下 -->
+  <circle cx="150" cy="150" r="62" fill="#4a5f76"/>
+  <!-- 遮光纸：小而亮的圆片 -->
+  <circle cx="100" cy="98" r="38" fill="#ffc861"/>
+</svg>

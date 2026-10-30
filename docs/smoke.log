@@ -1,0 +1,26 @@
+
+[32112:1029/041531.608:INFO:CONSOLE:19225] "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools
+You might need to use a local HTTP server (instead of file://): https://react.dev/link/react-devtools-faq font-weight:bold", source: file:///<工作树>/shadow-craft/dist/renderer/index.js (19225)
+[smoke] renderer ready, mounted=true geometryOk=true
+[smoke] export-print-pdf payload keys: [ 'pages' ] pages: 1
+[32112:1029/041535.862:INFO:CONSOLE:2] "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security
+  Policy set or a policy with "unsafe-eval" enabled. This exposes users of
+  this app to unnecessary security risks.
+
+For more information and help, consult
+https://electronjs.org/docs/tutorial/security.
+This warning will not show up
+once the app is packaged.", source: node:electron/js2c/sandbox_bundle (2)
+[32112:1029/041536.638:INFO:CONSOLE:2] "%cElectron Security Warning (Insecure Content-Security-Policy) font-weight: bold; This renderer process has either no Content Security
+  Policy set or a policy with "unsafe-eval" enabled. This exposes users of
+  this app to unnecessary security risks.
+
+For more information and help, consult
+https://electronjs.org/docs/tutorial/security.
+This warning will not show up
+once the app is packaged.", source: node:electron/js2c/sandbox_bundle (2)
+[smoke] print PDF ok: <用户目录>\AppData\Local\Temp\shadowcraft-smoke-print-1793218531412.pdf (12429 字节, %PDF 头校验通过)
+[smoke] manual PDF ok: <用户目录>\AppData\Local\Temp\shadowcraft-smoke-manual-1793218531412.pdf (267509 字节, %PDF 头校验通过)
+[smoke] <用户目录>\AppData\Local\Temp\shadowcraft-smoke-print-1793218531412.pdf|<用户目录>\AppData\Local\Temp\shadowcraft-smoke-manual-1793218531412.pdf
+SMOKE PASS
+SMOKE PASS

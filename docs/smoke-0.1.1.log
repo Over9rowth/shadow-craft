@@ -1,0 +1,7 @@
+[smoke] renderer ready, mounted=true geometryOk=true
+[smoke] export-print-pdf payload keys: [ 'pages' ] pages: 1
+[smoke] print PDF ok: <用户目录>\AppData\Local\Temp\shadowcraft-smoke-print-1793279167011.pdf (12429 字节, %PDF 头校验通过)
+[smoke] manual PDF ok: <用户目录>\AppData\Local\Temp\shadowcraft-smoke-manual-1793279167012.pdf (267509 字节, %PDF 头校验通过)
+[smoke] <用户目录>\AppData\Local\Temp\shadowcraft-smoke-print-1793279167011.pdf|<用户目录>\AppData\Local\Temp\shadowcraft-smoke-manual-1793279167012.pdf
+SMOKE PASS
+SMOKE PASS
